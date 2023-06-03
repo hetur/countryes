@@ -1,0 +1,91 @@
+.div{
+    font-size: 1.5em;
+    color: bisque;
+    margin-block: auto;
+    text-align: center;
+    margin: 4px 0px 7px 0px;
+    -webkit-text-stroke: 0.2px rgb(12, 12, 12);
+    width:auto;
+}
+.img{
+    display: inline;
+    width: auto;
+}
+.h1{
+    font-size: 2em;
+    color: rgb(30, 4, 54);
+    margin-top: 4px;
+    margin-bottom: 60px;
+    padding: 2%;
+    -webkit-text-stroke: 1px rgb(12, 12, 12);
+}
+
+.h3{
+    margin: auto;
+    color: #04031e;
+    border-color: solid #ffffff;
+}
+.select{
+    margin: 3px 0px -50px 0px;
+    background: rgb(4, 8, 38);
+    -webkit-text-stroke: 0.3px rgba(8, 7, 8, 0.639);
+    font-weight:bold;
+    cursor:pointer;
+    width: auto;
+    max-width: 300px;
+}
+
+.button{
+    background-image: linear-gradient(to bottom, rgb(9, 7, 99), #121313) ;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #101010;
+    box-shadow: 6px 5px 24px #380577;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 0.8em;
+    color: #fafdfd;
+    padding: 7px;
+    right: 300px;
+    top: 250px;
+    position: unset;
+    width: auto;
+    display: block;
+    border: none;
+    -webkit-text-stroke: 0.3px rgba(9, 9, 9, 0.639);
+    cursor:pointer;
+}
+.button:hover{
+    background: rgb(9, 17, 79);
+    font-weight:bold;
+    width: auto;
+}
+
+.link{
+    text-decoration: none;
+    width: auto;
+}
+
+.x{
+  background-image: linear-gradient(to bottom, rgb(11, 19, 124), #091669) ;
+  font-family: cursive;
+  font-style: oblique;
+  color: #ffffff;
+  width: auto;
+  margin: 11px 0px 0px 0px;
+}
+
+.x:hover{
+    background: rgb(137, 74, 156);
+    font-weight:bold;
+    cursor:pointer;
+    width: auto;
+  }
+  
+  .disabled {
+  display: none;
+}
+
+.form {
+   column-count: 3;
+
+}

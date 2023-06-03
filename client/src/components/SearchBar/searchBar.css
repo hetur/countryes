@@ -1,0 +1,23 @@
+input1{
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #101011;
+    box-shadow: 6px 5px 24px #100f0f;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 2em;
+    color: #eee9e9;
+    padding: 12px;
+    right: 300px;
+    top: 250px;
+    position: unset;
+    border-left-width: medium;
+    background: local;
+    border: ridge;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    cursor:pointer;
+  }
+
+  input1:hover{
+    background-image: linear-gradient(to bottom, rgba(24, 21, 108, 0.262), #061049);
+    font-weight:bold;
+  }

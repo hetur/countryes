@@ -1,0 +1,77 @@
+.titulo1 {
+    background-color: black;
+    max-width: 1300px;
+    border-radius: 30px;
+    font-size: 2.5em;
+    color: rgb(33, 9, 86);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    margin: 40px;
+}
+
+.parrafo{
+    font-size: 30px;
+    width: 400px;
+    height: 230px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    transform: translate(-50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 33px #690d0d;
+}
+
+.boton{
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmQ3YmVhZmY4MzI2OGY4MjA0MzMwOWQyOTM2OTk1NzcwOTc5OTliZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VG2UVwmLUIACpIDG0u/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 300px;
+    padding: 155px;
+    cursor: pointer;
+    position: absolute;
+    left: 20%;
+    box-shadow: 6px 6px 33px #690d0d;
+    top: 150px;
+    transition:all;
+   
+}
+
+.boton:hover{
+    background: url("https://i.gifer.com/origin/57/5750d9c607382d449025b36521cc494b_w200.webp");
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 300px;
+    padding: 100px;
+    cursor:pointer;
+    position: absolute;
+    left: 20%;
+    transform: translateX(10%);
+    top: 250px;
+      
+}
+
+.containerIcons{
+   transform: scale(2.0);
+   bottom: 180px;
+   margin-top: 390px;
+   margin-left: 60%;
+   width: 10px;
+   display: flex;
+   justify-content: space-between;
+   
+  }
+
+.socials{
+   padding: 5px 5px;
+   background-color: rgb(175, 220, 208);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   margin-right: 10px
+ }
+
+ 
+

@@ -1,0 +1,22 @@
+body::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 177, 244, 0.5);
+  z-index: -1;
+}
+
+body {
+  border: 0;
+  background: url(https://media.istockphoto.com/id/507796005/es/vector/globo-en-la-tecnolog%C3%ADa-moderna-fondo-de-comunicaci%C3%B3n.jpg?s=1024x1024&w=is&k=20&c=01JMqPIODlhQzgsO7S7EbLFB5Vl7Af6iocKttZirq7w=);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5em;
+  background-repeat: no-repeat;
+  background-size: cover
+
+};
