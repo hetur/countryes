@@ -10,7 +10,7 @@ export const FILTER_COUNTRY_BY_ACTIVITY = 'FILTER_COUNTRY_BY_ACTIVITY';
 export const FETCH_ACTIVITY = 'FETCH_ACTIVITY';
 export const FILTER_COUNTRY_BY_POPULATION = 'FILTER_COUNTRY_BY_POPULATION';
 
-export const fetchCountry = () => //api-client conn
+export const fetchCountry = () => 
     async (dispatch) => {
         try {
             const response = await axios

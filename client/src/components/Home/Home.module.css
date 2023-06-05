@@ -30,12 +30,12 @@ img{
   }
 
   .h1{
-    color: rgb(182, 74, 11);
-    text-shadow: 3px 2px 1px #554747;
+    color: rgb(240, 233, 29);
+    text-shadow: 3px 2px 1px #1b1616;
     font-size: 5em;
     margin-top: -80px;
     font-variant: sans-serif;
-    -webkit-text-stroke: 3px rgb(10, 10, 10);
+    -webkit-text-stroke: 3px rgb(46, 47, 7);
   
   }
 

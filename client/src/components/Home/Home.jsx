@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCountry } from '../../redux/action';
 import Country from "../Country/country";
@@ -51,8 +51,12 @@ export default function Home() {
 
     function handleOnclick(e) {
         e.preventDefault();
+        setCurrentPage(1)
         dispatch(fetchCountry())
     };
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [currentPage]);
     /*
     Defino una función llamada "handleOnclick" 
     que toma un evento "e" como argumento y llama a "fetchCountry" usando "dispatch". 
